@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+
+    >
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingBottom="15dp">
+
+        <ImageView
+            app:srcCompat="@drawable/ic_logo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="3dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/headerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textColor="@color/colorDeepGray"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/emailText_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Email"
+            android:textColor="@color/colorDeepGray"
+            android:textSize="13sp"
+
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

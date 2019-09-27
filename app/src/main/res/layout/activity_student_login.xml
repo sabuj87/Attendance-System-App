@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="17dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".view.activity.StudentLoginActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_logo" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:text="Student Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:drawableTint="@color/colorPrimary"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_email"
+            android:id="@+id/studentLoginID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email/Student ID"
+            android:inputType="textEmailAddress" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleDrawable="@drawable/ic_pass_icon_selector"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:drawableTint="@color/colorPrimary"
+            android:id="@+id/studentLoginpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_lock"
+            android:hint="Password"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/studentLoginBtn"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_gradient_button"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:text="L O G I N"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

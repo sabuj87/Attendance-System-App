@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Attendance System</string>
+
+    //custom
+
+    <string name="account_type">Select your account type</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="nav_drawer_open">open</string>
+    <string name="nav_drawer_close">close</string>
+
+
+    <string-array name="semester">
+        <item>Select semester</item>
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Fall</item>
+
+    </string-array>
+
+    <string-array name="department">
+        <item>Select department</item>
+        <item>English</item>
+        <item>BBA</item>
+        <item>EEE</item>
+        <item>CSE</item>
+        <item>Math</item>
+        <item>Sociology</item>
+        <item>Economic</item>
+
+    </string-array>
+    <string-array name="year">
+
+        <item>Select year</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+
+    </string-array>
+
+    <string-array name="course">
+        <item>C</item>
+        <item>C++</item>
+        <item>JAVA</item>
+        <item>Database</item>
+        <item>Compiler Design</item>
+    </string-array>
+
+    <string-array name="course_code">
+        <item>CSE-111</item>
+        <item>CSE-121</item>
+        <item>CSE-231</item>
+        <item>CSE-221</item>
+        <item>CSE-321</item>
+    </string-array>
+    <string-array name="desig">
+        <item>Select Designation</item>
+        <item>Professor</item>
+        <item>Associate Professor</item>
+        <item>Lecturer</item>
+    </string-array>
+
+    <string-array name="shift">
+
+
+        <item>Select shift</item>
+        <item>Day</item>
+        <item>Evening</item>
+    </string-array>
+
+
+</resources>

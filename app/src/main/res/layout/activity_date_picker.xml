@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activity.DatePickerActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:titleTextColor="@color/colorWhite"
+        app:title="Select Date"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:padding="17dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_weight="4.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:focusable="false"
+                    android:hint="Pick a date"
+                    android:id="@+id/dateET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <ImageButton
+                android:id="@+id/dateIbtn"
+                android:tint="@color/colorPrimary"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="3dp"
+                android:src="@drawable/ic_date_range_black_24dp"
+                android:layout_weight=".7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:text="Next"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/dateNxtBtn"
+            android:background="@drawable/shape_gradient_button"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

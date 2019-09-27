@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".view.activity.MainActivity">
+
+    <TextView
+
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/account_type"
+        android:textSize="19sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        />
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+
+            android:id="@+id/adminCard"
+            android:layout_marginRight="10dp"
+            android:layout_width="140dp"
+
+            android:layout_height="140dp">
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:padding="10dp"
+                    android:background="@drawable/ovalsahpe"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/admin" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Admin"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="17sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/teacherCard"
+
+            android:layout_width="140dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="140dp">
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/ovalsahpe"
+                    android:padding="12dp"
+                    android:src="@drawable/teacher" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Teacher"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="17sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:id="@+id/studentCard"
+
+        android:layout_marginTop="20dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp">
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:padding="10dp"
+                android:background="@drawable/ovalsahpe"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/student" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Student"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

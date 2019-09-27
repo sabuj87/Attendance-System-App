@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="17dp"
+    tools:context=".view.activity.AdminLoginActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_logo" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:text="Admin Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:drawableTint="@color/colorPrimary"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_email"
+            android:id="@+id/adminSignInEmailET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User name"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleDrawable="@drawable/ic_pass_icon_selector"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:drawableTint="@color/colorPrimary"
+            android:id="@+id/adminSignInPassET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_lock"
+            android:hint="Password"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/adminLoginBtn"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_gradient_button"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:text="L O G I N"
+        android:layout_height="wrap_content" />
+
+    <!--<LinearLayout
+        android:id="@+id/goSignUP"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Want to be a new User"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="SIGNUP"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>-->
+
+</LinearLayout>

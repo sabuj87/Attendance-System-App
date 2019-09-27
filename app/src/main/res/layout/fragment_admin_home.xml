@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="4"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".view.fragment.AdminHomeFragment">
+    
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            
+            <android.support.v7.widget.CardView
+                android:backgroundTint="#EEF0FA"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/studentListCV"
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+
+                    <ImageView
+                        android:layout_width="59dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/student"
+
+                        />
+
+                    <!--     <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:background="@color/colorPrimary"
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp">
+
+                    </LinearLayout>-->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Student List"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            
+            
+            
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:backgroundTint="#EEF0FA"
+                app:cardCornerRadius="5dp"
+                android:id="@+id/teacherListCV"
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/teacher"
+
+                        />
+
+            <!--        <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/colorPrimary">
+
+                    </LinearLayout>-->
+                    <TextView
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:text="Teacher List"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:weightSum="1"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                app:cardCornerRadius="5dp"
+                android:backgroundTint="#EEF0FA"
+                android:id="@+id/courseListCV"
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:src="@drawable/test"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+
+                        />
+
+                  <!--  <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:background="@color/colorPrimary"
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp">
+
+                    </LinearLayout>
+-->
+                    <TextView
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Course List" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+ 
+   
+
+</LinearLayout>

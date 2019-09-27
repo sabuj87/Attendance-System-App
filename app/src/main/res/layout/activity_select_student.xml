@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activity.SelectStudentActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="Batch and Dept."
+        app:titleTextColor="@color/colorWhite"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:padding="17dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+     <LinearLayout
+         android:layout_marginTop="2dp"
+         android:background="@drawable/shape_border"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+         <Spinner
+             android:id="@+id/deptSp"
+             android:backgroundTint="@color/colorPrimary"
+             android:layout_width="match_parent"
+             android:layout_height="50dp" />
+
+     </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/batchSp"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/shiftSp"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+
+  <Button
+      android:id="@+id/selectNextBtn"
+      android:textColor="@color/colorWhite"
+      android:textSize="15sp"
+      android:text="N E x t"
+      android:background="@drawable/shape_gradient_button"
+      android:layout_marginTop="40dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

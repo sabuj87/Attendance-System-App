@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.attendancesystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.activity.ShowAttendanceActivity"></activity>
+        <activity android:name=".view.activity.StudentActivity" />
+        <activity android:name=".view.activity.ViewAttendenceActivity" />
+        <activity android:name=".view.activity.SelectedCourse1Activity" />
+        <activity android:name=".view.activity.TakeAttendanceActivity" />
+        <activity android:name=".view.activity.DatePickerActivity" />
+        <activity android:name=".view.activity.AttendaceStudentActivity" />
+        <activity android:name=".view.activity.SelectedCourseActivity" />
+        <activity android:name=".view.activity.AddCourseActivity" />
+        <activity android:name=".view.activity.CourseListActivity" />
+        <activity android:name=".view.activity.CourseDeptctivity" />
+        <activity android:name=".view.activity.TeacherActivity" />
+        <activity android:name=".view.activity.DeptActivity" />
+        <activity android:name=".view.activity.SelectStudentActivity" />
+        <activity android:name=".view.activity.AddTeacherActivity" />
+        <activity android:name=".view.activity.TeacherListActivity" />
+        <activity android:name=".view.activity.AddStudentActivity" />
+        <activity android:name=".view.activity.StudentListActivity" />
+        <activity android:name=".view.activity.AdminActivity" />
+        <activity android:name=".view.activity.StudentLoginActivity" />
+        <activity android:name=".view.activity.TeacherLoginActivity" />
+        <activity android:name=".view.activity.AdminSignUpActivity" />
+        <activity android:name=".view.activity.AdminLoginActivity" />
+        <activity
+            android:name=".view.activity.SplashActivity"
+            android:theme="@style/AppTheme.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.activity.IntroActivity" />
+        <activity android:name=".view.activity.MainActivity" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

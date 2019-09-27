@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.AddCourseActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="Add course"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:padding="17dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/courseTitleSp"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+
+        </LinearLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:focusable="false"
+                android:id="@+id/courseCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTint="@color/colorPrimary"
+                android:hint="Course code"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/courseBatchSp"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/courseTeacherSp"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/addCourseBtn"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            android:text="Add course"
+            android:background="@drawable/shape_gradient_button"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
