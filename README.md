@@ -1,5 +1,5 @@
-# JoyBangla
-Complete music player app with subtitle
+# Attendance System
+Manege teacher and student information,course allocation System,take live Attendance.
 
 ## About the app
 * IT is developed based on a Bangla poem book which name is “জয় বাংলা”
