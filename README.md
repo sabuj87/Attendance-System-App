@@ -20,18 +20,18 @@ Manege teacher and student information,course allocation System,take live Attend
 ## Screen Shot
 
 [splash]: https://github.com/sabuj87/raw/blob/master/Attendence%20System(Scren%20sot)/splash.png
-[splash]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Splash%20Screen.png
-[intro]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Intro%20slide.png
-[home]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Hone.png
+[intro]: https://github.com/sabuj87/raw/blob/master/Attendence%20System(Scren%20sot)/intro.png
+[Account Type]: https://github.com/sabuj87/raw/blob/master/Attendence%20System(Scren%20sot)/Account%20Type.png
+[admin panel]: https://github.com/sabuj87/raw/blob/master/Attendence%20System(Scren%20sot)/admin%20panel.png
 [allps]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/all%20poemlist.png
 [fps]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/favouriteList.png
 [player]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/player.png
 [writter]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/about%20writter.png
 
 
-|     Book      |    Splash screen |  Intro slide  | Home  |
+|    Splash screen      |    Intro slide |  Account Type  | admin panel  |
 | ------------- |:-------------: |:------:|:---------------------:|
-|![alt text][splash]  | ![alt text][splash] | ![alt text][intro]  | ![alt text][home]|
+|![alt text][splash]  | ![alt text][intro] | ![alt text][Account Type]  | ![alt text][admin panel]|
 
 |     All poemlist |   Favourite list | Poem player  | about witter |
 | ------------- |:-------------: |:------:|:---------------------:|
