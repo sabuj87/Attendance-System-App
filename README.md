@@ -50,7 +50,7 @@ Manege teacher and student information,course allocation System,take live Attend
 | ------------- |:-------------: |:------:|
 |![alt text][TakeAttendence]  | ![alt text][TeacherViewAttendance] | ![alt text][studentViewAttendance] |
 
-[Download APK](http://www.mediafire.com/file/mlimk0cekd76ggi/Joy_Bangla.apk/file)
+[Download APK](https://www.mediafire.com/file/zb3uqkx4b8f251h/Attendance_System.apk/file)
 
 ## Ask any question...
 * Email : sabujaeed@gmail.com
