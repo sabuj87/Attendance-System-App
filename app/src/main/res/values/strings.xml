@@ -85,5 +85,15 @@
         <item>Evening</item>
     </string-array>
 
+    //intro
+    <string name="intro_details">Manege teacher and student information\n
+        course allocation System\n
+        take live Attendance
+    </string>
+    <string name="intro_contacts">Manege Teacher and Student information</string>
+    <string name="intro_blood_donation">Course Allocation System</string>
+    <string name="intro_find_location">Take live Attendance</string>
+
+
 
 </resources>

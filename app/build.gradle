@@ -4,6 +4,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion "29.0.0"
     defaultConfig {
+        vectorDrawables.useSupportLibrary = true
         applicationId "com.example.attendancesystem"
         minSdkVersion 15
         targetSdkVersion 28

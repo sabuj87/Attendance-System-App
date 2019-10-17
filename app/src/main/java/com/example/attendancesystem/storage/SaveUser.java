@@ -26,6 +26,22 @@ public class SaveUser {
 
     }
 
+    public void introSave(Context context,Boolean b) {
+        SharedPreferences pref = context.getSharedPreferences("intro", MODE_PRIVATE);
+        SharedPreferences.Editor editor = pref.edit();
+        editor.putBoolean("intro", b);
+        editor.commit();
+
+    }
+    public boolean introLoad(Context context) {
+        SharedPreferences pref =context.getSharedPreferences("intro", MODE_PRIVATE);
+        value = pref.getBoolean("intro", false);
+        return value;
+
+
+    }
+
+
     public void teacher_saveData(Context context,Boolean b) {
         SharedPreferences pref = context.getSharedPreferences("myPrefss", MODE_PRIVATE);
         SharedPreferences.Editor editor = pref.edit();
